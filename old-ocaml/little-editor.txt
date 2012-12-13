@@ -1,0 +1,24 @@
+A small, relatively simple editor.  Well, sorta.  Think Scite + pico with a
+dash of emacs.
+
+Both terminal and graphical modes.
+
+Displaying a line-number for the current line, and going to a certain line
+should be easy.
+
+Basic shortcuts can be shown along bottom of screen, a la joe or pico
+
+F1 for help!
+
+Scripting with Python or Ruby or Scheme or Lua.
+
+Syntax highlighting.
+
+Folding?  Make it simple...
+
+Auto-indentation, a la emacs.
+
+
+
+UI:
+Everything can be done with the keyboard.  Pie-menu shortcuts, often.

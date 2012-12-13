@@ -1,0 +1,11 @@
+#!/bin/sh
+cd src
+echo "Cleaning..."
+./clean
+echo "Compiling..."
+./compile
+echo "Linking..."
+./link
+cp lunatic ..
+echo "Done!"
+cd ..

@@ -1,0 +1,52 @@
+Lunatic: A relatively simple but feature-complete text editor, written and
+scripted in Lua.
+
+wxWidgets?  It's looking better all the time... or at least less half-assed.
+
+IDEAS
+Keyboard-based, no menus (or pie-menus with quick-keying)
+2 sets of functions, ctrl- and alt-?
+Scripting, modules/plugins
+Use the damn function keys!  Good memories of old DOS editors, there.
+Buffers!
+Shell/interpreter integration?
+
+Display quick-help, a la joe and nano
+
+Tabs?  Mouse-y...
+Split-screen is NICE at times.
+Syntax highlighting, or lex-highlighting at least
+auto-tabbing
+Spell-check
+
+
+
+A database addon?  Store files in the DB, that is.
+
+A database server in general, acts like a searching filesystem sorta thang...
+Sets, matching, all kinda good things.  BDB or SQLite...  If there's some way
+to wrap and generate SQL more nicely, I'd like to find it.
+Networking could be added then, too.
+Heheh... anyway...
+
+
+
+OPERATIONS TO IMPLEMENT:
+Text ops:
+Find, replace, goto line, goto char in line, cut/copy/paste, kill line, kill
+line before/after, skip paragraph, find regexp
+forward/back sentence?
+Line break?
+
+Buffer ops:
+Save, load, new, goto buffer, read-only, set mode, close, next/prev, command
+buffer, pipe to program, interact w/ program, backup files
+
+GUI ops:
+Split screen, join screen, show help, fold, syntax highlighting, get text on
+screen
+
+Editor ops:
+Run script, reload config, bind key, unbind key, quit
+
+Advanced things:

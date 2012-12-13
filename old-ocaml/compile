@@ -1,0 +1,11 @@
+#!/bin/sh
+
+
+FILES="lunatic.ml"
+
+OCAMLC=ocamlc.opt
+OCAMLOPT=ocamlopt.opt
+
+$OCAMLC -c -I +lablgtk2 $FILES
+#$OCAMLOPT -c -I +lablgtk2 $FILES
+

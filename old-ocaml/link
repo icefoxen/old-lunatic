@@ -1,0 +1,15 @@
+#!/bin/sh
+
+FILES="lunatic.cmo"
+
+OPTFILES="lunatic.cmx"
+
+LIBS="str.cma lablgtk.cma nums.cma"
+#OPTLIBS="str.cmxa lablgtk.cmxa nums.cmxa"
+
+OCAMLLINK=ocamlc.opt
+OCAMLOPTLINK=ocamlopt.opt
+TARGET=lunatic
+
+$OCAMLLINK -g -o $TARGET -I +lablgtk2 $LIBS $FILES
+#$OCAMLOPTLINK -I lablgtk2 -o $TARGET $OPTLIBS $OPTFILES

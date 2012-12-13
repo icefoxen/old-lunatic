@@ -1,0 +1,32 @@
+Okay!  Here we go.
+A COMPILED, DYNMAIC-TYPED, TAGGED language.
+
+You can put in type-annotations and it will insert runtime type-checking code,
+and maybe optimize stuff (later).
+
+Maybe functions can be redefined at runtime?  Hmm, then a function would
+pretty much be a name/args and an address...  But unused functions would
+get... weird.
+Leave it for now!
+
+Garbage collection?!  Not yet!
+
+...this is turning out to be more complicated than anticipated.
+
+
+Types:
+Int
+Bool
+Char
+Float (somehow)
+
+
+Array
+List?
+
+Struct?
+Object?
+Tuple?
+
+Ratio?
+
